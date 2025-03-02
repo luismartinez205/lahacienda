@@ -80,6 +80,7 @@ nav{
     }
     nav{
         justify-content: space-between;
+        height: 71px;
         h1{
             font-size: 1rem;
             left: 7px;
