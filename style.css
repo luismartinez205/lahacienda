@@ -70,9 +70,7 @@ nav{
 }
 
 .submenu{
-    width: 25%;
-    height: 90px;
-    background-color: aquamarine;
+    visibility: hidden;
 }
 
 .header-img{
@@ -107,5 +105,10 @@ nav{
     .header-img{
        
         height: 200px;
+    }
+    .submenu{
+        width: 100%;
+        height: 135px;
+        background-color: aquamarine;
     }
     }
