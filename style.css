@@ -49,7 +49,7 @@ nav{
                 font-weight: 600;
                 transition: color 0.4s ease-in-out;
 
-                &&:hover{
+                &:hover{
                     color:rgb(74 73 58);
                 }
             }
@@ -70,21 +70,37 @@ nav{
 }
 
 .submenu{
+    line-height: 31px;
     visibility: hidden;
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+        font-family: outfit;
+        font-weight: 500;
+
+       
+    }
+
 }
 
 .header-img{
     width: 100%;
     height: 400px;
 }
+.nav-menu-visible{
+    visibility: visible;
+}
 
 @media only screen and (max-width : 900px) {
-    ul{
+    .nav-list{
         display: none;
     }
     nav{
+        height: 70px;
         justify-content: space-between;
-        height: 71px;
         h1{
             font-size: 1rem;
             left: 7px;
@@ -96,20 +112,22 @@ nav{
     .logo{
         width: 70px;
         margin-left: 5px;
-        height: 102px;
+        height: 80px;
     }
     .menu{
         visibility: visible;
         margin-right: 20px;
     }
+
+    .submenu{
+        width: 100%;
+        height: 150px;
+        background-color: #d8dcdb; 
+                  
+    }
+
     .header-img{
        
         height: 200px;
-    }
-    .submenu{
-        width: 45%;
-        height: 230px;
-        background-color: aquamarine;
-        visibility: visible;
     }
     }
