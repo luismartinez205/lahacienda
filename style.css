@@ -43,14 +43,14 @@ nav{
 
             a{
                 text-decoration: none;
-                color: #ffffff;
+                color: #463d33;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: 0.8rem;
                 font-weight: 600;
                 transition: color 0.4s ease-in-out;
 
                 &:hover{
-                    color:rgb(74 73 58);
+                    color:rgb(116 115 90);
                 }
             }
            
@@ -74,6 +74,7 @@ nav{
     visibility: hidden;
     ul{
         list-style: none;
+        margin-left: 10px;
     }
     a{
         text-decoration: none;
@@ -120,10 +121,11 @@ nav{
     }
 
     .submenu{
+        position: absolute;
+        top: 69px;
         width: 100%;
         height: 150px;
-        background-color: #d8dcdb; 
-                  
+        background-color: #d8dcdb63;        
     }
 
     .header-img{
