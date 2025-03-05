@@ -94,6 +94,11 @@ nav{
    
 }
 
+i{
+    font-size: 1.3rem;
+    color: white;
+}
+
 
 
 @media only screen and (max-width : 900px) {
@@ -104,8 +109,11 @@ nav{
         flex-direction: column;
         position: absolute;
         align-items: baseline;
-        top: 53px;
-        right: -17px;
+        top: 50px;
+        right: -20px;
+        width: 100%;
+        height: 200px;
+        transition: display 0.3s ease;
     }
     nav{
         height: 70px;
@@ -142,6 +150,11 @@ nav{
     }
     .nav-menu-visible{
         display: flex;
+     }
+
+     i{
+        font-size: 1rem;
+        color: black;
      }
      
     }
