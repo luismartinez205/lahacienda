@@ -105,7 +105,7 @@ i{
    
     .nav-list{       
         display: none;
-        background-color: hsla(39,100%,68%,1);
+        background-color: hsl(245deg 39.22% 93.09% / 59%);
         flex-direction: column;
         position: absolute;
         align-items: baseline;
