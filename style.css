@@ -110,6 +110,8 @@ i {
     color: #2eb086;
     font-family: 'Outfit';
     padding-top: 20px;
+    position: relative;
+    right: -102px;
 }
 
 .main{
@@ -128,6 +130,8 @@ i {
         width: 71%;
         line-height: 28px;
         font-family: 'Atlassian Sans';
+        margin-bottom: 20px;
+        text-align: justify;
     }
 }
 
@@ -216,7 +220,13 @@ i {
         }
     }
 }
-
+.main-texto{
+    width: 71%;
+    line-height: 28px;
+    font-family: 'Atlassian Sans';
+    margin-bottom: 20px;
+    text-align: justify;
+}
 
 @media only screen and (max-width : 900px) {
 
