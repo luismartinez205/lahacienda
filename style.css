@@ -351,6 +351,19 @@ i {
         letter-spacing: 2px;
     }
  }
+
+ .footer-copy{
+    position: relative;
+    top: -33px;
+ }
+
+ .copy-img{
+    width: 79px;
+    height: 90px;
+    position: relative;
+    left: 181px;
+    top: 19px;
+ }
 @media only screen and (max-width : 900px) {
 
     .nav-list {
@@ -373,9 +386,16 @@ i {
     width: 100%;
     flex-direction: column;
 }
+.copy-img{
+    width: 60px;
+    height: 64px;
+    position: relative;
+    left: 119px;
+    top: 12px;
+}
 
 .footer-nav-1,.footer-nav-2,.footer-nav-3{
-    width: 348px;
+    width: 115px;
     height: 203px;
 }
 
@@ -389,7 +409,7 @@ i {
 .footer-cols{
     
     gap: 0px;
-    flex-direction: column;
+    flex-direction:row;
 }
 
     nav {
