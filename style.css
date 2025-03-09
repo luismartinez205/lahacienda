@@ -371,6 +371,7 @@ i {
 }
 .redes{
     width: 100%;
+    flex-direction: column;
 }
 
 .footer-nav-1,.footer-nav-2,.footer-nav-3{
@@ -379,7 +380,7 @@ i {
 }
 
 .footer{
-    height: 734px;
+    height: 362px;
     p{
         font-size: 0.5rem;
     }
