@@ -372,13 +372,19 @@ i {
 
     .certificados{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         position: relative;
-        right: -105px;
+        right:0px;
         top: -67px;
         gap: 10px;
+    }
+
+    .certificados-logo1{
+        width: 34%;
+        /* margin: 0 auto; */
+        object-fit: cover;
     }
 
     .nav-list {
@@ -415,7 +421,7 @@ i {
 }
 
 .footer{
-    height: 362px;
+    height: 434px;
     p{
         font-size: 0.5rem;
     }
@@ -423,7 +429,7 @@ i {
 
 .footer-cols{
     
-    gap: 0px;
+    gap: 5px;
     flex-direction:row;
 }
 
@@ -524,7 +530,7 @@ i {
 }
 
 .footer-copy{
-    top: 19px;
+    top: 118px;
 }
 
 }
