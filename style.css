@@ -356,6 +356,10 @@ i {
     top: 73px;
  }
 
+ .footer-social{
+    position: relative;
+ }
+
  .copy-img{
     width: 79px;
     height: 90px;
@@ -368,6 +372,8 @@ i {
     margin: 0 auto;
     object-fit: cover;
  }
+
+ 
 @media only screen and (max-width : 900px) {
 
     .certificados{
