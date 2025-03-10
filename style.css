@@ -353,7 +353,7 @@ i {
 
  .footer-copy{
     position: relative;
-    top: -33px;
+    top: 73px;
  }
 
  .copy-img{
@@ -363,7 +363,23 @@ i {
     left: 181px;
     top: 19px;
  }
+ .certificados-logo1{
+    width: 5%;
+    margin: 0 auto;
+    object-fit: cover;
+ }
 @media only screen and (max-width : 900px) {
+
+    .certificados{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: -105px;
+        top: -67px;
+        gap: 10px;
+    }
 
     .nav-list {
         display: none;
@@ -505,6 +521,10 @@ i {
             padding: 20px;
             font-size: 1.5rem;
     }
+}
+
+.footer-copy{
+    top: 19px;
 }
 
 }
