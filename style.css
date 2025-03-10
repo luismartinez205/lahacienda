@@ -255,14 +255,15 @@ i {
     justify-content: center;
     align-items: center;
     gap: 80px;
+    margin-top: 20px;
  }
  .footer-nav-1,.footer-nav-2,.footer-nav-3{
-    
     width: 400px;
     height: 200px;
+    background-color: #269b73de;
     h3{
         text-align: center;
-        padding-top: 42px;
+        padding-top: 12px;
         color: white;
         font-size: 0.9rem;
         font-family: 'Outfit';
@@ -334,9 +335,7 @@ i {
         line-height: 190%;
     }
 
-    ul{
-        
-    }
+   
 
     i{
         margin-right: 10px;
