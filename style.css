@@ -540,3 +540,46 @@ i {
 }
 
 }
+
+@media only screen and (min-width : 1300px){
+    .logo {
+        margin-left: 4px;
+        height: 122px;
+    }
+
+    nav {
+        background-color: rgb(46 176 134);
+        width: 100%;
+        height: 91px;
+        display: flex;
+        justify-content: normal;
+        
+        ul {
+            margin: 0px;
+        }
+        h3 {
+            color: #463d33;
+            position: relative;
+            top: 30px;
+            right: 288px;
+            font-size: 0.9rem;
+            font-family: 'Outfit';
+        }
+    }
+    
+    .main {
+        img {
+            width: 30%;
+            margin-left: -28px;
+            height: 351px;
+        }
+        
+    }
+
+    .footer-nav-1, .footer-nav-2, .footer-nav-3 {
+        width: 394px;
+        height: 200px;
+        background-color: #269b73de;
+    }
+    
+}
