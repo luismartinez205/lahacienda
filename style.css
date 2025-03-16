@@ -544,7 +544,7 @@ i {
 
 @media (min-width: 1025px) and (max-width: 1450px) {
     .logo {
-        margin-left: 6px;
+        margin-left: 2px;
         height: 122px;
     }
 
@@ -552,10 +552,33 @@ i {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 14px;
         margin-top: 4px;
+
+        img {
+            width: 30%;
+            margin-left: -1px;
+            height: 351px;
+        }
     }
+
+    nav{
+        h3 {
+            color: #463d33;
+            position: relative;
+            top: 30px;
+            right: 289px;
+            font-size: 0.9rem;
+            font-family: 'Outfit';
+        }
+
+        ul {
+            margin: -3px;
+        }
+      }
   }
+
+  
 
 
   @media (min-width: 2500px) {
@@ -564,7 +587,7 @@ i {
         color: #463d33;
         position: relative;
         top: 30px;
-        right: 797px;
+        right: 794px;
         font-size: 0.9rem;
         font-family: 'Outfit';
     }
@@ -584,17 +607,17 @@ i {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 153px;
+        gap: 137px;
         margin-top: 4px;
         margin-bottom: 20px;
 
         img {
-            width: 30%;
-            margin-left: 206px;
+            width: 39%;
+            margin-left: 12px;
             height: 351px;
-        }
     }
 
     
     
   }
+}
