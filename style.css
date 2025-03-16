@@ -538,34 +538,21 @@ i {
 
 }
 
-@media (min-width: 1300px) and (max-width:1600px) {
+@media (min-width: 1025px) and (max-width: 1450px) {
     .logo {
-        margin-left: 9px;
+        margin-left: 6px;
         height: 122px;
-    }
-    nav{
-        h3 {
-            color: #463d33;
-            position: relative;
-            top: 30px;
-            right: 314px;
-            font-size: 0.9rem;
-            font-family: 'Outfit';
-        }
-
-        ul {
-            margin: -7px;
-        }
     }
 
     .main {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 19px;
+        gap: 20px;
         margin-top: 4px;
     }
   }
+
 
   @media (min-width: 2500px) {
    nav{
