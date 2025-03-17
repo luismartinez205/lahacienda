@@ -369,9 +369,13 @@ i {
     top: 19px;
  }
  .certificados-logo1{
-    width: 5%;
-    margin: 0 auto;
+    width: 3%;
+    margin: 2px;
     object-fit: cover;
+ }
+
+ .certificados{
+    width: 98%;
  }
 .minsa{
     width: 76px;
