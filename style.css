@@ -26,12 +26,12 @@ nav {
     }
 
     h3 {
-        color: #463d33;
+        color: #35332f;
         position: relative;
         top: 30px;
-        right: 303px;
-        font-size: 0.9rem;
-        font-family: 'Outfit';
+        right: 310px;
+        font-size: 0.8rem;
+        font-family: 'Outfit';;
     }
 
     ul {
@@ -240,6 +240,7 @@ i {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+   
     p{
         color: white;
         font-weight: bold;
@@ -306,19 +307,27 @@ i {
  }
 
  .redes{
-    height: 60px;
-    width: 600px;
+    height: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    position: relative;
-    top: -34px;
-    flex-direction: column;
+    position: absolute;
+    bottom: 115px;
+    
+   
     i{
-        color: black;
+        color: rgb(245, 241, 241);
+        font-size: 2rem;
+        margin: 48px;
     }
- }
+
+    li{
+        list-style: none;
+        display: inline-block;
+    }
+      }
 
  i{
     cursor: pointer;
@@ -381,6 +390,10 @@ i {
     width: 76px;
     height: 76px;
 }
+
+footer{
+    position: relative;
+}
  
 @media only screen and (max-width : 900px) {
 
@@ -396,7 +409,7 @@ i {
     }
 
     .certificados-logo1 {
-        width: 16%;
+        width: 9%;
         margin: 12px;
         object-fit: cover;
         border-radius: 50%;
@@ -432,7 +445,7 @@ i {
 
 
 .footer{
-    height: 434px;
+    height: 100%;
     p{
         font-size: 0.5rem;
     }
@@ -441,7 +454,7 @@ i {
 .footer-cols{
     
     gap: 5px;
-    flex-direction:row;
+    flex-direction:column;
 }
 
     nav {
@@ -541,7 +554,11 @@ i {
 }
 
 .footer-copy{
-    top: 102px;
+    top: 71px;
+}
+
+.redes{
+    display: none;
 }
 
 }
