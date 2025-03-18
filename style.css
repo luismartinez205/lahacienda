@@ -129,7 +129,7 @@ i {
     p{
         width: 71%;
         line-height: 28px;
-        font-family: 'Atlassian Sans';
+        font-family: Montserrat;
         margin-bottom: 20px;
         text-align: justify;
     }
@@ -602,7 +602,7 @@ footer{
     .main p{
         width: 88%;
         line-height: 28px;
-        font-family: 'Atlassian Sans';
+        font-family: 'Montserrat';
         margin-left: 21px;
     }
 
