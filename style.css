@@ -11,7 +11,7 @@
 
 body{
     background-color: #f0f8f5;
-   
+    font-family: Montserrat;
 }
 
 nav {
@@ -25,7 +25,7 @@ nav {
 
 
     h1 {
-        font-family: outfit;
+        
         font-weight: 400;
         color: #ffffff;
         font-size: 2rem;
@@ -37,9 +37,9 @@ nav {
         color: #35332f;
         position: relative;
         top: 30px;
-        right: 310px;
+        right: 334px;
         font-size: 0.8rem;
-        font-family: 'Outfit';;
+        
     }
 
     ul {
@@ -54,8 +54,7 @@ nav {
 
             a {
                 text-decoration: none;
-                color: #463d33;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #463d33;               
                 font-size: 0.8rem;
                 font-weight: 600;
                 transition: color 0.4s ease-in-out;
@@ -115,9 +114,9 @@ i {
 
 .main-title{
     text-align: center;
-    color: var(--primary-color);
-    font-family: 'Outfit';
+    color: var(--primary-color);   
     padding-top: 20px;
+    font-weight: 400;
     
 }
 
@@ -130,14 +129,13 @@ i {
 
     img{
         width: 30%;
-        margin-left: 30px;
+        margin-left: -5px;
         height: 351px;
     }
 
     p{
         width: 71%;
-        line-height: 28px;
-        font-family: Montserrat;
+        line-height: 28px;       
         margin-bottom: 20px;
         text-align: justify;
     }
@@ -157,15 +155,14 @@ width: 50%;
 height: 300px;
 h1{
     margin-bottom: 38px;
-    color: var(--primary-color);
-    font-family: 'Atlassian Sans';
+    color: var(--primary-color);   
     font-size: 2rem;
+    font-weight: 500;
 }
 p{
     width: 90%;
     font-weight: 400;
-    line-height: 190%;
-    font-family: montserrat;
+    line-height: 190%;   
     text-align: justify;
 }
 
@@ -265,8 +262,7 @@ p{
 }
 .main-texto{
     width: 64%;
-    line-height: 28px;
-    font-family: 'Atlassian Sans';
+    line-height: 28px;  
     margin-bottom: 20px;
     text-align: justify;
 
@@ -290,7 +286,7 @@ p{
         font-weight: bold;
         font-size: 0.8rem;
         letter-spacing: 1px;
-        font-family: 'Atlassian Sans';
+      
     }
 
  }
@@ -312,7 +308,7 @@ p{
         padding-top: 12px;
         color: white;
         font-size: 0.9rem;
-        font-family: 'Outfit';
+      
     }
    ul{
     font-weight: 300;
@@ -470,8 +466,7 @@ footer{
         width: 100%;
         h1 {
             margin-bottom: 16px;
-            color: #2eb086;
-            font-family: 'Atlassian Sans';
+            color: #2eb086;            
             font-size: 1.8rem;
             text-align: center;
         }
@@ -667,7 +662,7 @@ footer{
             top: 30px;
             right: 289px;
             font-size: 0.9rem;
-            font-family: 'Outfit';
+           
         }
 
         ul {
@@ -687,11 +682,11 @@ footer{
         top: 30px;
         right: 794px;
         font-size: 0.9rem;
-        font-family: 'Outfit';
+       
     }
 
     h1 {
-        font-family: outfit;
+        
         font-weight: 400;
         color: #ffffff;
         font-size: 2rem;
