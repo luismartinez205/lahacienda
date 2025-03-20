@@ -37,7 +37,7 @@ nav {
         color: #35332f;
         position: relative;
         top: 30px;
-        right: 334px;
+        right: 24.5%;
         font-size: 0.8rem;
         
     }
@@ -156,7 +156,7 @@ h1{
     margin-bottom: 20px;
     color: var(--primary-color);
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 400;
     
 }
 p{
@@ -271,6 +271,7 @@ p{
         margin-bottom: 20px;
         font-size: 1.5rem;
         color: var(--primary-color);
+        font-weight: 300;
     }
 }
  .footer{
@@ -436,7 +437,7 @@ footer{
     position: relative;
 }
  
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 600px) {
 
     .certificados{
         display: flex;
@@ -535,7 +536,7 @@ footer{
         height: 70px;
         justify-content: space-between;
 
-        h1 {
+        h3{
             font-size: 1.3rem;
             left: 0px;
         }
@@ -638,10 +639,10 @@ footer{
 }
 
 
+@media (min-width: 1024px) and (max-width: 1545px) {
 
-@media (min-width: 1025px) and (max-width: 1450px) {
     .logo {
-        margin-left: 2px;
+        margin-left: 9px;
         height: 122px;
     }
 
@@ -678,14 +679,7 @@ footer{
         }
     }
     nav{
-        h3 {
-            color: #463d33;
-            position: relative;
-            top: 30px;
-            right: 321px;
-            font-size: 0.9rem;
-           
-        }
+        
 
         ul {
             margin-left: -70px;
