@@ -162,7 +162,7 @@ h1{
 p{
     width: 90%;
     font-weight: 400;
-    line-height: 150%;   
+    line-height: 170%;   
     text-align: justify;
 }
 
@@ -476,13 +476,14 @@ footer{
 
         p{
             margin: 0 auto;
+            line-height: 170%;
         }
     }
 
     .main-container {
         display: flex;
         justify-content: center;
-        gap: 141px;
+        gap: 169px;
         align-items: anchor-center;
         flex-wrap: wrap;
         margin-top: -2px;
@@ -536,7 +537,7 @@ footer{
         height: 70px;
         justify-content: space-between;
 
-        h3{
+        h1{
             font-size: 1.3rem;
             left: 0px;
         }
@@ -607,9 +608,9 @@ footer{
     }
 
     .main p{
-        width: 88%;
-        line-height: 150%;        
-        margin-left: 21px;
+        width: 90%;
+        line-height: 150%;
+        margin-left: 16px;
     }
 
     .main h1{
@@ -620,11 +621,9 @@ footer{
     .main-texto{
         width:100%;
         h2{
-            margin-bottom: -1px;
-            margin-left: 28px;
-            padding: 7px;
             font-size: 1rem;
             font-weight: 400;
+            text-align: center;
     }
 }
 
@@ -661,7 +660,7 @@ footer{
 
         p{
             width: 95%;
-            line-height: 28px;
+            line-height: 170%;
             margin-bottom: 20px;
             text-align: justify;
         }
