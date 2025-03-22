@@ -12,7 +12,7 @@ p, h1, h2, h3, h4, h5, h6 {
   h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
   }
-  
+
 * {
     margin: 0;
     padding: 0;
@@ -570,7 +570,10 @@ footer {
             margin-bottom: 20px;
         }
     }
-
+    .main-valores {
+       
+        height: 290px !important;
+    }
     .cont1 {
         width: 100%;
         display: flex;
@@ -738,7 +741,7 @@ footer {
     }
 
     .main-title {
-        font-size: 1.4rem;
+        font-size: 1em;
         text-align: center;
     }
 
@@ -746,7 +749,7 @@ footer {
         width: 100%;
 
         h2 {
-            font-size: 1.2rem;
+            font-size: 1em;
             font-weight: 400;
             text-align: center;
         }
