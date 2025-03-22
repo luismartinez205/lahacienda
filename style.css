@@ -167,7 +167,7 @@ i {
 
 .main-titulo {
     color: var(--primary-color);
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 1rem;
     text-align: center;
 }
