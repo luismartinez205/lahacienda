@@ -623,6 +623,7 @@ footer {
     .main {
         flex-direction: column;
         padding: 0rem;
+        gap: 3px;
     }
 
     .redes {
@@ -752,6 +753,7 @@ footer {
             font-size: 1em;
             font-weight: 400;
             text-align: center;
+            margin-bottom: 1px;
         }
     }
 
