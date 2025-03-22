@@ -558,6 +558,11 @@ footer {
 
     .cont1 {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
 
         h1 {
             margin-bottom: 16px;
@@ -575,7 +580,7 @@ footer {
     .main-container {
         display: flex;
         justify-content: center;
-        gap: 115px;
+        gap: 29px;
         align-items: anchor-center;
         flex-wrap: wrap;
         margin-top: -2px;
