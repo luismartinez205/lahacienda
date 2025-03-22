@@ -714,6 +714,7 @@ footer {
         line-height: 170%;
         margin: 0 auto;
         padding: 20px;
+        text-align: unset;
     }
 
     .main-title {
