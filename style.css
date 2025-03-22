@@ -536,7 +536,7 @@ footer {
         align-items: center;
         gap: 3px;
         flex-direction: column;
-        padding: 0rem;
+        padding: 1rem;
     }
 
     .main-mision,
