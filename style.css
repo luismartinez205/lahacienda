@@ -522,7 +522,7 @@ footer {
     position: relative;
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 800px) {
 
     .certificados {
         display: flex;
@@ -551,7 +551,7 @@ footer {
         align-items: center;
         gap: 3px;
         flex-direction: column;
-        padding: 1rem;
+        padding: 0rem;
     }
 
     .main-mision,
