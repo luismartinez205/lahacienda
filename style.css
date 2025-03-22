@@ -137,6 +137,7 @@ i {
         line-height: 28px;
         margin-bottom: 20px;
         text-align: justify;
+        font-size: clamp(0.8rem, 4vw, 1rem);
     }
 
 }
@@ -173,6 +174,7 @@ i {
         font-weight: 400;
         line-height: 170%;
         text-align: justify;
+        font-size: clamp(0.8rem, 4vw, 1rem);
     }
 
 }
@@ -573,7 +575,7 @@ footer {
     .main-container {
         display: flex;
         justify-content: center;
-        gap: 169px;
+        gap: 115px;
         align-items: anchor-center;
         flex-wrap: wrap;
         margin-top: -2px;
@@ -708,9 +710,10 @@ footer {
     }
 
     .main p {
-        width: 90%;
+        width: 100%;
         line-height: 170%;
-        margin-left: 16px;
+        margin: 0 auto;
+        padding: 20px;
     }
 
     .main-title {
