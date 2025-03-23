@@ -54,7 +54,7 @@ nav {
         color: var(--tertiary-color);
         position: relative;
         top: 30px;
-        right: 22%;
+        right: 21.3%;
         font-size: 0.8rem;
 
     }
@@ -88,8 +88,9 @@ nav {
 }
 
 .logo {
-    margin-left: 73px;
-    height: 122px;
+    margin-left: 18px;
+    width: 83%;
+    object-fit: cover;
 }
 
 .menu {
@@ -499,11 +500,11 @@ i {
 }
 
 .copy-img {
-    width: 79px;
-    height: 90px;
+    width: 32%;
     position: relative;
-    left: 181px;
-    top: 5px;
+    left: 160px;
+    top: 7px;
+    object-fit: cover;
 }
 
 .certificados-logo1 {
@@ -642,11 +643,11 @@ footer {
     }
 
     .copy-img {
-        width: 60px;
-        height: 64px;
-        position: relative;
-        left: 119px;
-        top: 12px;
+        width: 75px;
+        /* height: 64px; */
+        /* position: relative; */
+        left: 115px;
+        /* top: 12px; */
     }
 
 
@@ -779,8 +780,9 @@ footer {
 @media (min-width: 1024px) and (max-width: 1500px) {
 
     .logo {
-        margin-left: 9px;
-        height: 122px;
+        margin-left: 5px;
+        height: 159px;
+        width: 100%;
     }
 
     .main {
@@ -825,7 +827,7 @@ footer {
 
         h3 {
 
-            right: 24.5%;
+            right: 23.9%;
 
         }
 
