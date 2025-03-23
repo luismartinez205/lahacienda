@@ -366,7 +366,7 @@ i {
 }
 
 .main-valores {
-    background-color: #6f2323;
+    background-color: #6a2e2e;
 }
 
 
@@ -669,8 +669,10 @@ footer {
         justify-content: space-between;
 
         h1 {
-            font-size: 1.3rem;
-            left: 0px;
+            font-size: 1rem;
+            left: 10px;
+            width: 100%;
+            font-weight: 500;
         }
 
         h3 {
@@ -679,9 +681,10 @@ footer {
     }
 
     .logo {
-        width: 70px;
-        margin-left: 5px;
-        height: 80px;
+        width: 108%;
+        margin-left: 2px;
+        height: 100%;
+        object-fit: cover;
     }
 
     .menu {
