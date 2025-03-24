@@ -718,6 +718,8 @@ footer {
     .header-img {
         top: 54px;
         height: 200px;
+        padding: 0rem;
+        margin-top: 0;
     }
 
     .nav-menu-visible {
