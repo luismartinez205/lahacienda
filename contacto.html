@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -59,6 +61,56 @@
         </nav>
         <img src="imagenes/maxresdefault (1).jpg" class="header-img">
     </header>
+    <main>
+        <div class="hero">
+            <h1>Contactanos</h1>
+        </div>
+        <div class="main-form">
+            <img src="imagenes/campo.webp" alt="" srcset="">
+            <form id="main-contact-form" name="contact-form" accept-charset="UTF-8" method="post" action="enviar.php">
+
+                <input type="text" name="Name" class="form-control p-2" placeholder="Nombre" value=""
+                    required="required" pattern=".{3,}" title="Su nombre debe tener 3 caracateres como mínimo."><br>
+
+
+                <input type="lastname" name="Lastname" class="form-control p-2" placeholder="Apellido" value=""
+                    required="required" pattern=".{3,}" title="Su apellido debe tener 3 caracateres como mínimo."><br>
+
+
+                <input type="text" name="Empresa" class="form-control p-2" placeholder="Empresa" value=""
+                    required="required" pattern=".{3,}"
+                    title="El nombre de su empresa debe tener 3 caracateres como mínimo."><br>
+
+
+                <input type="text" name="Email" class="form-control p-2" placeholder="Email" value=""
+                    required="required" pattern=".{7,}" title="Su email debe tener 7 caracateres como mínimo."><br>
+
+
+                <textarea class="form-control p-2" name="Mensaje" placeholder="Mensaje" value="" required="required"
+                    id="textAreaExample1" rows="4"></textarea><br>
+
+
+                <div class="g-recaptcha p-2" data-sitekey="6Lfo1b4pAAAAAO8NJrZtz0vE1Y19Bp1DJDctdgPp">
+                    <div style="width: 304px; height: 78px;">
+                        <div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-j8gh6p3zapux"
+                                frameborder="0" scrolling="no"
+                                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                                src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lfo1b4pAAAAAO8NJrZtz0vE1Y19Bp1DJDctdgPp&amp;co=aHR0cHM6Ly9wcm9kdWN0b3NxdWltaWNvc2liaXMuY29tOjQ0Mw..&amp;hl=es-419&amp;v=bUO1BXI8H9PgjAPSW9hwuSeI&amp;size=normal&amp;cb=x2vdwdi73eso"></iframe>
+                        </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                            class="g-recaptcha-response"
+                            style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                    </div><iframe style="display: none;"></iframe>
+                </div>
+
+                <br>
+
+                <button type="submit" class="p-2 text-blue">Enviar mensaje</button>
+
+            </form>
+
+        </div>
+    </main>
     <script src="main.js"></script>
 </body>
+
 </html>

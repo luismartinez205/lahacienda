@@ -34,6 +34,71 @@ body {
     font-family: Montserrat;
 }
 
+.main-form{
+    display: flex;   
+    justify-content: start;
+    align-items: center;
+    gap: 5rem;
+
+    img{
+        width: 40%;
+        height: 497px;
+        padding: 2em;
+    }
+}
+
+.hero{
+    width: 100%;
+    height: 277px;
+    background-image: url(https://cdn.euroinnova.edu.es/img/subidasEditor/smiling-veterinarian-working-at-farm-rgn2teq-1620282011.webp);
+    background-position-y: -208px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 auto;
+}
+
+form{
+    width: 38%;
+    padding: 2em;
+}
+button {
+    color: #1565C0 !important;
+    font-weight: bold !important;
+    padding: 10px 20px 10px 20px !important;
+    border-radius: 0 !important;
+}
+.form-control{
+    border: none;
+    margin-left: 0;
+    background-color: #eaeef3;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.p-2 {
+    padding: .5rem!important;
+    font-family: montserrat;
+}
+
 nav {
     position: fixed;
     background-color: var(--primary-color);
