@@ -47,8 +47,8 @@ body {
 
 .main-form {
   display: flex;
-  justify-content: start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   gap: 5rem;
 
   img {
@@ -77,6 +77,10 @@ body {
 
 textarea.form-control {
   height: auto;
+}
+iframe[src*="google.com/maps"] {
+  
+  margin: 35px;
 }
 
 form {
