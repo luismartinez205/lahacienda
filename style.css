@@ -628,6 +628,28 @@ footer {
     gap: 10px;
   }
 
+  iframe[src*="google.com/maps"] {
+    margin: 0px;
+    width: 100%;
+}
+
+form {
+  width: 100%;
+  padding: 2em;
+}
+.hero{
+h1 {
+  color: #b84956;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-right: 89px;
+}
+}
+
+.main-form {  
+  flex-direction: column;
+}
+
   .certificados-logo1 {
     width: 9%;
     margin: 12px;
