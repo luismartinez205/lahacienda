@@ -52,7 +52,7 @@ body {
   gap: 5rem;
 
   img {
-    width: 40%;
+    width: 100%;
     height: 497px;
     padding: 2em;
   }
@@ -72,7 +72,11 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 0 auto;
+  margin-top: 1px;
+}
+
+textarea.form-control {
+  height: auto;
 }
 
 form {
@@ -80,10 +84,12 @@ form {
   padding: 2em;
 }
 button {
-  color: #1565c0 !important;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
   font-weight: bold !important;
   padding: 10px 20px 10px 20px !important;
-  border-radius: 0 !important;
+  border: 1px solid transparent;
+  cursor: pointer;
 }
 .form-control {
   border: none;
@@ -597,6 +603,13 @@ footer {
 .hidden-nav{
     visibility: hidden;    
     transition: all 0.3s ease-in-out;
+}
+
+.hero{
+  h1{
+    color: #b84956;
+    font-weight: 400;
+  }
 }
 
 @media only screen and (max-width: 800px) {
