@@ -56,6 +56,37 @@ body {
     height: 497px;
     padding: 2em;
   }
+  
+}
+
+.google{
+  text-decoration: none;
+  color: var(--primary-color);
+  text-align: center;
+  margin-left: 22%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: var(--secondary-color);
+  padding: 1em;
+}
+
+.location{
+  width: 2%;
+  position: relative;
+  left: 21%;
+  top: 10px;
+}
+
+.adress{
+  padding: 0.8em;
+  span{
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  p{
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
 }
 
 .hero {
@@ -613,9 +644,52 @@ footer {
 
 .hero{
   h1{
-    color: #b84956;
+    color: #676464;
     font-weight: 400;
+    background-color: rgb(255 255 255 / 44%);
   }
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 20%;
+  padding: 1rem;
+  margin-bottom: 1rem;  
+  justify-content: center;
+  align-items: flex-start;
+
+  
+
+  i{
+    color: rgb(238 238 238);
+    padding-right: 1rem;    
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -3px 4px 4px 1px rgb(186 169 169);
+  }
+}
+
+.link-dark {
+    
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.lh-1 {
+    line-height: 1.5;
+    color: var(--primary-color);
+}
+
+.main-cont-title {
+  text-align: end;
+  margin-right: 20%;
+  color: white;
+  font-size: 1.9rem;
+  margin-top: 2%;
+  word-spacing: 2px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -640,6 +714,7 @@ form {
   padding: 2em;
 }
 .hero{
+  background-position-y: 0px;
 h1 {
   color: #b84956;
   font-weight: 400;
@@ -647,9 +722,36 @@ h1 {
   margin-right: 89px;
 }
 }
+.location {
+  width: 9%;
+  position: relative;
+  left: 46%;
+  top: -10px; 
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.google {  
+  width: 82%;
+  display: block;
+  margin: 0 auto;
+}
+
+button {  
+  width: 100%;
+}
 
 .main-form {  
   flex-direction: column;
+  gap: 0rem;
 }
 
   .certificados-logo1 {
@@ -897,6 +999,9 @@ h1 {
       transition: width 0.3s ease-in-out;
     }
   }
+  .hero {   
+    background-position-y: -185px;    
+}
 
   .main {
     display: flex;
