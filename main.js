@@ -25,4 +25,12 @@ navmenu.classList.toggle("nav-menu-visible")
         
  });
 
+ const clave = '6LeSvgErAAAAADITmZjJtVZmBpu_pA0Kb4I24giK';
+
+ 
+ function onSubmit(token) {
+   document.getElementById("main-contact-form").submit();
+ }
+
+
  

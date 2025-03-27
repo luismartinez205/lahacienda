@@ -89,22 +89,14 @@
                 <textarea class="form-control p-2" name="Mensaje" placeholder="Mensaje" value="" required="required"
                     id="textAreaExample1" rows="4"></textarea><br>
 
-
-                <div class="g-recaptcha p-2" data-sitekey="6Lfo1b4pAAAAAO8NJrZtz0vE1Y19Bp1DJDctdgPp">
-                    <div style="width: 304px; height: 78px;">
-                        <div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-j8gh6p3zapux"
-                                frameborder="0" scrolling="no"
-                                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
-                                src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lfo1b4pAAAAAO8NJrZtz0vE1Y19Bp1DJDctdgPp&amp;co=aHR0cHM6Ly9wcm9kdWN0b3NxdWltaWNvc2liaXMuY29tOjQ0Mw..&amp;hl=es-419&amp;v=bUO1BXI8H9PgjAPSW9hwuSeI&amp;size=normal&amp;cb=x2vdwdi73eso"></iframe>
-                        </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
-                            class="g-recaptcha-response"
-                            style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-                    </div><iframe style="display: none;"></iframe>
-                </div>
+                <div class="g-recaptcha" data-sitekey="6LdNywErAAAAAHMuS2xqvsYjGKPzgJ4QK2gAlGbj"></div>
 
                 <br>
 
-                <button type="submit" class="p-2 text-blue">Enviar mensaje</button>
+                <button type="submit" class="p-2 text-blue" class="g-recaptcha" 
+                data-sitekey="6LdNywErAAAAAHMuS2xqvsYjGKPzgJ4QK2gAlGbj" 
+                data-callback='onSubmit' 
+                data-action='submit'>Enviar mensaje</button>
 
             </form>
 
@@ -126,7 +118,7 @@
             </a>
         </div>
         <div class="adress">
-            <p><span>Planta</span>:&nbsp;&nbsp;Milla 21, Changuinola-Bocas del Toro-PANAMA</p>
+            <p><span>Planta Lactea</span>:&nbsp;&nbsp;Milla 21, Changuinola-Bocas del Toro-PANAMA</p>
             <p><span>Panaderia</span>:&nbsp;&nbsp;Ave.Omar Torrijos Herrera, Changuinola-Bocas del Toro-PANAMA</p>
         </div>
     </main>
@@ -191,6 +183,7 @@
         </div>
     </footer>
     <script src="main.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 
 </html>
