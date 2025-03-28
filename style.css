@@ -774,7 +774,7 @@ line{
 
 form {
   width: 100%;
-  padding: 2em;
+  padding: 1em;
 }
 .hero{
   background-position-y: 0px;
@@ -790,6 +790,14 @@ h1 {
   position: relative;
   left: 46%;
   top: -10px; 
+}
+
+.adress {  
+  flex-direction: column;
+
+  span {   
+    margin-left: 0;
+}
 }
 
 .footer__social {
