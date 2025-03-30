@@ -175,9 +175,9 @@ button {
 }
 .card {
   width: 300px;
-  background: white;
+  background: #ffffffb5;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px hsla(0,0%,100%,1);
   overflow: hidden;
   text-align: center;
 }
@@ -289,6 +289,7 @@ main {
   height: 400px;
   object-fit: cover;
   object-position: center;
+  margin-bottom: -5px;
 }
 
 i {
@@ -356,7 +357,7 @@ i {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-bottom: -4px;
+  margin-bottom: -5px;
 }
 
 .productos{
@@ -403,6 +404,7 @@ i {
     font-size: 2rem;
     font-weight: 400;
   }
+ 
 
   p {
     width: 90%;
@@ -413,7 +415,16 @@ i {
     color: var(--primary-color);
   }
 }
-
+.container-title-dos{
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 400;
+  position: relative;
+  bottom: 108px;
+  left: 193px;
+  width: 50%;
+}
 .cont2 {
   width: 50%;
   img {
@@ -523,7 +534,7 @@ i {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-
+  
   p {
     color: var(--tertiary-color);
     font-weight: bold;
@@ -630,6 +641,10 @@ i {
   }
 }
 
+.m-l{
+  margin-left: 25px;
+}
+
 .redes {
   height: auto;
   width: 100%;
@@ -637,8 +652,8 @@ i {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  position: absolute;
-  bottom: 115px;
+  position: relative;
+  bottom: 140px;
 
   i {
     font-size: 2rem;
@@ -697,8 +712,8 @@ i {
   width: 32%;
   position: relative;
   left: 160px;
-  top: 7px;
-  object-fit: cover;
+  top: 6px;
+  object-fit: cover; 
 }
 
 .certificados-logo1 {
@@ -788,6 +803,14 @@ footer {
   word-spacing: 2px;
 }
 
+.container-title{
+  width: 80%;
+  padding: 2em;
+  margin: 0 auto;
+  color: var(--primary-color);
+  line-height: 1.75;
+}
+
 @media only screen and (max-width: 700px) {
   .certificados {
     display: flex;
@@ -799,6 +822,24 @@ footer {
     top: -67px;
     gap: 10px;
   }
+
+  .container-title {
+    width: 100%;
+    padding: 1em; 
+    margin: 0 auto;
+    color: var(--primary-color);
+    line-height: 1.75;
+}
+.container-title-dos {
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 400;
+  position: relative;
+  bottom: 12px;
+  left: 20px;
+  width: 84%;
+}
 
   iframe[src*="google.com/maps"] {
     margin: 0px;
@@ -1137,6 +1178,11 @@ button {
     height: auto;
   }
 
+  .m-l {
+    margin-left: 0px;
+    height: 364px;
+}
+
   .fixed-nav {
     .logo {
       width: 118%;
@@ -1146,6 +1192,11 @@ button {
   .hero {   
     background-position-y: -185px;    
 }
+
+.copy-img {
+ margin-right: 87px;
+}
+
 
   .main {
     display: flex;
@@ -1184,7 +1235,7 @@ button {
 
   nav {
     h3 {
-      right: 20.9%;
+      right: 21.9%;
     }
 
     ul {
@@ -1198,6 +1249,10 @@ button {
       left: 50px;
     }
   }
+}
+
+.wave {  
+  margin-bottom: -9px;
 }
 
 @media (min-width: 2500px) {
