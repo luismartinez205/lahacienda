@@ -262,8 +262,13 @@ nav {
         transition: color 0.4s ease-in-out;
 
         &:hover {
-          color: rgb(228 226 175);
+          color: rgb(228, 9, 9);
         }
+
+        &:active, &:focus {
+          color: red;
+        }
+        
       }
     }
   }
@@ -297,7 +302,7 @@ i {
   color: var(--cuaternary-color);
 }
 
-.dropdown {
+.dropdown{
   position: absolute;
   background-color: var(--tertiary-color);
   right: 226px;
