@@ -339,7 +339,7 @@ i {
     line-height: 28px;
     margin-bottom: 20px;
     text-align: justify;
-    font-size: clamp(0.8rem, 2.5vw, 1rem);
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
     color: var(--tertiary-color);
   }
 }
