@@ -569,7 +569,22 @@ i {
     font-size: clamp(0.8rem, 4vw, 1rem);
   }
 }
+.btn-whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  position: fixed;
+  right: 80px;
+  bottom: 200px;  
+  line-height: 80px;
+  text-align: left;
+  z-index: 999;
 
+  img{
+    border-radius: 50px;
+  }
+}
 .main-mision,
 .main-vision,
 .main-valores {
