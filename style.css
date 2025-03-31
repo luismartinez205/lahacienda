@@ -854,6 +854,7 @@ footer {
     margin: 0 auto;
     color: var(--primary-color);
     line-height: 1.75;
+    text-align: justify;
 }
 .container-title-dos {
   margin-bottom: 20px;
@@ -881,6 +882,12 @@ footer {
   align-items: center;
   gap: 20px;
   padding: 0.8rem;
+  flex-direction: column;
+}
+
+.container-img {
+ 
+  margin-left: 0;
   flex-direction: column;
 }
 
@@ -1200,12 +1207,7 @@ button {
   }
 }
 
-.container-img {
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 156px;
-  flex-direction: row;
-}
+
 
 @media (min-width: 1024px) and (max-width: 1500px) {
   .logo {
