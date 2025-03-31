@@ -61,13 +61,16 @@ body {
 
 .google{
   text-decoration: none;
-  color: var(--primary-color);
+  color: rgb(70 63 63);
   text-align: center;
   margin-left: 22%;
   font-size: 0.8rem;
   font-weight: 600;
-  background-color: var(--secondary-color);
-  padding: 1em;
+  padding: 10px 20px;
+  background-color: #bffc23;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .location{
@@ -126,12 +129,14 @@ form {
   padding: 2em;
 }
 button {
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-  font-weight: bold !important;
-  padding: 10px 20px 10px 20px !important;
-  border: 1px solid transparent;
+  padding: 10px 57px;
+  background: hsl(77deg 97.51% 56.28%);
+  color: #534a4a;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+  font-weight: 600;
+  width: 100%;
 }
 .form-control {
   border: none;
@@ -154,7 +159,7 @@ button {
 }
 
 .p-2 {
-  padding: 0.5rem !important;
+ 
   font-family: montserrat;
 }
 
@@ -175,7 +180,7 @@ button {
 }
 .card {
   width: 300px;
-  background: #ffffffb5;
+  background: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 8px hsla(0,0%,100%,1);
   overflow: hidden;
@@ -206,17 +211,18 @@ button {
   margin-bottom: 10px;
 }
 .card button {
-  background:var(--secondary-color);
-  color: white;
+  background: hsl(77deg 97.51% 56.28%);
+  color: #332d2d;
   border: none;
   padding: 10px 15px;
   cursor: pointer;
   border-radius: 5px;
   transition: background 0.3s;
+  width: 56%;
 }
 
 .card button:hover {
-  background: var(--tertiary-color);
+  background: rgb(151 255 4 / 97%);
 }
 nav {
   background-color: var(--primary-color);
@@ -262,7 +268,7 @@ nav {
         transition: color 0.4s ease-in-out;
 
         &:hover {
-          color: rgb(228, 9, 9);
+          color: rgb(160, 145, 145);
         }
 
         &:active, &:focus {
@@ -596,7 +602,7 @@ i {
 }
 
 .main-mision {
-  background-color: #2B8773;
+  background-color: #03634d;
 }
 
 .main-vision {
@@ -604,7 +610,7 @@ i {
 }
 
 .main-valores {
-  background-color: #2B873F;
+  background-color: #186b2a;
 }
 
 .footer-cols {
