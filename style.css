@@ -16,7 +16,6 @@ h6 {
 /* 8. Improve line wrapping */
 p {
   text-wrap: pretty;
-  
 }
 h1,
 h2,
@@ -56,10 +55,9 @@ body {
     height: 497px;
     padding: 2em;
   }
-  
 }
 
-.google{
+.google {
   text-decoration: none;
   color: rgb(70 63 63);
   text-align: center;
@@ -73,31 +71,30 @@ body {
   cursor: pointer;
 }
 
-.location{
+.location {
   width: 2%;
   position: relative;
   left: 21%;
   top: 10px;
 }
 
-.adress{
+.adress {
   padding: 0.8em;
   display: flex;
   justify-content: center;
 
-  span{
+  span {
     font-size: 0.9rem;
     font-weight: 600;
     margin-left: 78px;
     color: var(--primary-color);
   }
-  p{
+  p {
     font-weight: 400;
     font-size: 0.8rem;
     color: wheat;
   }
 }
-
 
 .hero {
   width: 100%;
@@ -120,7 +117,6 @@ textarea.form-control {
   height: auto;
 }
 iframe[src*="google.com/maps"] {
-  
   margin: 35px;
 }
 
@@ -159,11 +155,10 @@ button {
 }
 
 .p-2 {
- 
   font-family: montserrat;
 }
 
-.footer .copy-text{
+.footer .copy-text {
   text-align: center;
   font-size: 0.6em;
   color: var(--secondary-color);
@@ -171,7 +166,7 @@ button {
   text-transform: uppercase;
 }
 
-.container{
+.container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -182,14 +177,14 @@ button {
   width: 300px;
   background: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px hsla(0,0%,100%,1);
+  box-shadow: 0 4px 8px hsla(0, 0%, 100%, 1);
   overflow: hidden;
   text-align: center;
 }
 .card img {
   width: 100%;
   height: 200px;
-  object-fit: cover;  
+  object-fit: cover;
   transition: transform 0.5s;
 
   &&:hover {
@@ -203,7 +198,7 @@ button {
 .card h3 {
   margin-bottom: 10px;
   font-size: 1.5rem;
-  color:var(--tertiary-color);
+  color: var(--tertiary-color);
 }
 .card p {
   font-size: 1rem;
@@ -271,10 +266,10 @@ nav {
           color: rgb(160, 145, 145);
         }
 
-        &:active, &:focus {
+        &:active,
+        &:focus {
           color: red;
         }
-        
       }
     }
   }
@@ -308,7 +303,7 @@ i {
   color: var(--cuaternary-color);
 }
 
-.dropdown{
+.dropdown {
   position: absolute;
   background-color: var(--tertiary-color);
   right: 226px;
@@ -371,13 +366,13 @@ i {
   margin-bottom: -5px;
 }
 
-.productos{
+.productos {
   width: 33%;
   object-fit: cover;
   aspect-ratio: 1/1;
 }
 
-.liner{
+.liner {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -393,15 +388,15 @@ i {
   font-size: 2rem;
   text-transform: uppercase;
 }
-.line{
+.line {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  div{
+  div {
     width: 20%;
     height: 2px;
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     margin: 10px;
   }
 }
@@ -415,7 +410,6 @@ i {
     font-size: 2rem;
     font-weight: 400;
   }
- 
 
   p {
     width: 90%;
@@ -426,7 +420,7 @@ i {
     color: var(--primary-color);
   }
 }
-.container-title-dos{
+.container-title-dos {
   margin-bottom: 20px;
   color: var(--primary-color);
   font-size: 2rem;
@@ -545,7 +539,7 @@ i {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  
+
   p {
     color: var(--tertiary-color);
     font-weight: bold;
@@ -561,7 +555,6 @@ i {
   justify-content: center;
   align-items: end;
   padding: 2rem;
-  
 
   h3 {
     font-weight: 600;
@@ -582,12 +575,12 @@ i {
   color: #fff;
   position: fixed;
   right: 80px;
-  bottom: 200px;  
+  bottom: 200px;
   line-height: 80px;
   text-align: left;
   z-index: 999;
 
-  img{
+  img {
     border-radius: 50px;
   }
 }
@@ -667,7 +660,7 @@ i {
   }
 }
 
-.m-l{
+.m-l {
   margin-left: 25px;
   width: 33%;
   border: 3px solid #f4f4f4;
@@ -741,7 +734,7 @@ i {
   position: relative;
   left: 160px;
   top: 6px;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 .certificados-logo1 {
@@ -777,15 +770,15 @@ footer {
   }
 }
 
-.hidden-nav{
-    visibility: hidden;    
-    transition: all 0.3s ease-in-out;
+.hidden-nav {
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
 }
 
-.hero{
-  h1{
+.hero {
+  h1 {
     color: #9d5050;
-    font-weight: 400;        
+    font-weight: 400;
   }
 }
 
@@ -795,15 +788,13 @@ footer {
   gap: 10px;
   width: 20%;
   padding: 1rem;
-  margin-bottom: 1rem;  
+  margin-bottom: 1rem;
   justify-content: center;
   align-items: flex-start;
 
-  
-
-  i{
+  i {
     color: rgb(238 238 238);
-    padding-right: 1rem;    
+    padding-right: 1rem;
     -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -3px 4px 4px 1px rgb(186 169 169);
@@ -811,15 +802,14 @@ footer {
 }
 
 .link-dark {
-    
-    font-size: 1rem;
-    font-weight: 500;
-    text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .lh-1 {
-    line-height: 1.5;
-    color: var(--primary-color);
+  line-height: 1.5;
+  color: var(--primary-color);
 }
 
 .main-cont-title {
@@ -831,7 +821,7 @@ footer {
   word-spacing: 2px;
 }
 
-.container-title{
+.container-title {
   width: 80%;
   padding: 2em;
   margin: 0 auto;
@@ -840,20 +830,18 @@ footer {
   font-size: clamp(0.9rem, 2.5vw, 1rem);
 }
 
-.line-img{
+.line-img {
   width: 30%;
-  margin-left:2%;
+  margin-left: 2%;
   border: 3px solid #f4f4f4;
 }
 
-.container-img{
+.container-img {
   display: flex;
   justify-content: flex-start;
   margin-left: 10.5%;
   flex-direction: row;
 }
-
-
 
 @media only screen and (max-width: 700px) {
   .certificados {
@@ -871,133 +859,129 @@ footer {
     margin-left: 0;
     width: 100%;
     padding: 2rem;
-}
+  }
 
   .container-title {
     width: 100%;
-    padding: 1em; 
+    padding: 1em;
     margin: 0 auto;
     color: var(--primary-color);
     line-height: 1.75;
-    
-}
-.container-title-dos {
-  margin-bottom: 20px;
-  color: var(--primary-color);
-  font-size: 1.5rem;
-  font-weight: 400;
-  position: relative;
-  bottom: -6px;
-  left: 20px;
-  width: 84%;
-}
+  }
+  .container-title-dos {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    bottom: -6px;
+    left: 20px;
+    width: 84%;
+  }
 
   iframe[src*="google.com/maps"] {
     margin: 0px;
     width: 100%;
-}
+  }
 
-.location_iframe{
-  width: 100%;
- }
+  .location_iframe {
+    width: 100%;
+  }
 
-.liner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 0.8rem;
-  flex-direction: column;
-}
-.btn-whatsapp {  
-  right: 40px; 
-}
-.container-img {
- 
-  margin-left: 0;
-  flex-direction: column;
-}
+  .liner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0.8rem;
+    flex-direction: column;
+  }
+  .btn-whatsapp {
+    right: 40px;
+  }
+  .container-img {
+    margin-left: 0;
+    flex-direction: column;
+  }
 
-line{
-  
+  line {
     div {
       width: 15%;
       height: 2px;
       background-color: var(--primary-color);
       margin: 10px;
+    }
   }
-  
-}
 
-.line {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  flex-direction: column;
-  div{
-    width: 15%;    
+  .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+    div {
+      width: 15%;
+    }
   }
-}
 
-.productos {
-  width: 100%;
-  object-fit: cover;
-  aspect-ratio: 1/1;
-}
+  .productos {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
 
-form {
-  width: 100%;
-  padding: 1em;
-}
-.hero{
-  background-position-y: 0px;
-h1 {
-  color: #b84956;
-  font-weight: 400;
-  font-size: 1.5rem;
-  margin-right: 89px;
-}
-}
-.location {
-  width: 9%;
-  position: relative;
-  left: 46%;
-  top: -10px; 
-}
+  form {
+    width: 100%;
+    padding: 1em;
+  }
+  .hero {
+    background-position-y: 0px;
+    h1 {
+      color: #b84956;
+      font-weight: 400;
+      font-size: 1.5rem;
+      margin-right: 89px;
+    }
+  }
+  .location {
+    width: 9%;
+    position: relative;
+    left: 46%;
+    top: -10px;
+  }
 
-.adress {  
-  flex-direction: column;
+  .adress {
+    flex-direction: column;
 
-  span {   
-    margin-left: 0;
-}
-}
+    span {
+      margin-left: 0;
+    }
+  }
 
-.footer__social {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%;
-  padding: 2rem;
-  margin-bottom: 1rem;
-  justify-content: center;
-  align-items: flex-start;
-}
-.google {  
-  width: 82%;
-  display: block;
-  margin: 0 auto;
-}
+  .footer__social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .google {
+    width: 82%;
+    display: block;
+    margin: 0 auto;
+  }
 
-button {  
-  width: 100%;
-}
+  button {
+    width: 100%;
+  }
 
-.main-form {  
-  flex-direction: column;
-  gap: 0rem;
-}
+  .main-form {
+    flex-direction: column;
+    gap: 0rem;
+  }
 
   .certificados-logo1 {
     width: 9%;
@@ -1119,10 +1103,10 @@ button {
       font-size: 0.5rem;
     }
   }
-.line-img{
-  width: 90%;
-  margin: 0 auto;
-}
+  .line-img {
+    width: 90%;
+    margin: 0 auto;
+  }
   .footer-cols {
     gap: 5px;
     flex-direction: column;
@@ -1234,8 +1218,6 @@ button {
   }
 }
 
-
-
 @media (min-width: 1024px) and (max-width: 1500px) {
   .logo {
     margin-left: 5px;
@@ -1247,7 +1229,7 @@ button {
     margin-left: 15px;
     height: 364px;
     width: 36%;
-}
+  }
 
   .fixed-nav {
     .logo {
@@ -1255,21 +1237,20 @@ button {
       transition: width 0.3s ease-in-out;
     }
   }
-  .hero {   
-    background-position-y: -185px;    
-}
+  .hero {
+    background-position-y: -185px;
+  }
 
-.copy-img {
- margin-right: 87px;
-}
+  .copy-img {
+    margin-right: 87px;
+  }
 
-.container-img {
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 11.5%;
-  flex-direction: row;
-}
-
+  .container-img {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 11.5%;
+    flex-direction: row;
+  }
 
   .main {
     display: flex;
@@ -1324,7 +1305,7 @@ button {
   }
 }
 
-.wave {  
+.wave {
   margin-bottom: -9px;
 }
 
@@ -1376,10 +1357,8 @@ button {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
-
-  body{
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
     background-color: aquamarine;
   }
 }
-
