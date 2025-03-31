@@ -306,7 +306,7 @@ i {
   position: absolute;
   background-color: var(--tertiary-color);
   right: 226px;
-  top: 40px;
+  top: 50px;
   width: 220px;
   height: 130px;
   line-height: 20px;
@@ -478,7 +478,7 @@ i {
   position: absolute;
   background-color: var(--tertiary-color);
   right: 92px;
-  top: 40px;
+  top: 50px;
   width: 220px;
   height: 160px;
   line-height: 17px;
@@ -596,15 +596,15 @@ i {
 }
 
 .main-mision {
-  background-color: #655252;
+  background-color: #2B8773;
 }
 
 .main-vision {
-  background-color: rgb(108 72 72);
+  background-color: #792832;
 }
 
 .main-valores {
-  background-color: #6a2e2e;
+  background-color: #2B873F;
 }
 
 .footer-cols {
@@ -664,6 +664,7 @@ i {
 .m-l{
   margin-left: 25px;
   width: 33%;
+  border: 3px solid #f4f4f4;
 }
 
 .redes {
@@ -836,6 +837,7 @@ footer {
 .line-img{
   width: 30%;
   margin-left:2%;
+  border: 3px solid #f4f4f4;
 }
 
 .container-img{
@@ -901,7 +903,9 @@ footer {
   padding: 0.8rem;
   flex-direction: column;
 }
-
+.btn-whatsapp {  
+  right: 40px; 
+}
 .container-img {
  
   margin-left: 0;
