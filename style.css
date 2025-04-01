@@ -700,6 +700,11 @@ i {
   cursor: pointer;
 }
 
+.img-main:hover{
+  filter: brightness(90%);
+  box-shadow: 0 0 50px 7px #fff;
+}
+
 .main-contenedor {
   display: flex;
   justify-content: center;
