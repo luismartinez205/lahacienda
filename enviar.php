@@ -14,9 +14,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Sanitizar entradas
-    $name = htmlspecialchars(strip_tags($_POST["name"]));
-    $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-    $message = htmlspecialchars(strip_tags($_POST["message"]));
+    $name = htmlspecialchars(strip_tags($_POST["Name"]));
+    $email = filter_var($_POST["Email"], FILTER_SANITIZE_EMAIL);
+    $message = htmlspecialchars(strip_tags($_POST["Mensaje"]));
 
     // Validar email
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Enviar correo
-    $to = "tucorreo@ejemplo.com";
+    $to = "luisfrancisco198@gmail.com";
     $subject = "Nuevo mensaje de contacto";
     $headers = "From: $email\r\nReply-To: $email\r\n";
     

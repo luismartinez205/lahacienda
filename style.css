@@ -885,6 +885,23 @@ footer {
     gap: 10px;
   }
 
+  .main-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* margin-top: 20px; */
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.img-main {
+  width: 100%;
+  height: 20%;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
   .m-l {
     margin-left: 0;
     width: 100%;
