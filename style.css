@@ -694,8 +694,10 @@ i {
   cursor: pointer;
 }
 .img-main{
-  width: 13%;
+  width: 15%;
   height: 20%;
+  border: 1px solid white;
+  cursor: pointer;
 }
 
 .main-contenedor {

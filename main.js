@@ -1,10 +1,11 @@
+// menu hamburguesa
 const navtoggle=document.querySelector(".menu");
 const navmenu=document.querySelector(".nav-list");
 navtoggle.addEventListener("click",()=>{
 navmenu.classList.toggle("nav-menu-visible")
 });
 
-
+//barra de navegacion fixed
  const fecha=document.getElementById("year").textContent = new Date().getFullYear();
 
  const nav = document.querySelector('.navbar');
@@ -24,7 +25,7 @@ navmenu.classList.toggle("nav-menu-visible")
         }
         
  });
-
+/////recaptcha//
  const clave = '6LeSvgErAAAAADITmZjJtVZmBpu_pA0Kb4I24giK';
 
  
@@ -32,9 +33,24 @@ navmenu.classList.toggle("nav-menu-visible")
    document.getElementById("main-contact-form").submit();
  }
 
- 
+ /////recaptchafin//
+//imagenes que aumentan al pasar el mouse
+const images = document.querySelectorAll('.img-main');
+
+images.forEach(img => {
+    img.addEventListener('mouseover', () => {
+        img.style.transform = 'scale(1.1)';
+        img.style.transition = 'all 0.2s ease';
+    });
+
+    img.addEventListener('mouseout', () => {
+        img.style.transform = 'scale(1)';
+        img.style.transition = 'all 0.2s ease';
+    });
+});
+
+//imagenes fin codigo
 
 
 
 
- 
